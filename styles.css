@@ -15,10 +15,15 @@ February 23, 2024 */
         "img6 img6 img2 img3"
         "img1 img8 img4 img7";*/
 
-        grid-template-areas: 
+        /*grid-template-areas: 
         "img1 img5 img8 img7"
         "img2 img6 img8 img7"
-        "img2 img3 img3 img4";
+        "img2 img3 img3 img4";*/
+
+        grid-template-areas: 
+        "img6 img5 img8 img8"
+        "img2 img2 img7 img7"
+        "img1 img3 img3 img4";
 
         gap: 0.5rem; /* Works out to 10px (0.5 times root element [rem] font size of 20px */
         margin: 0 auto; /* Centers gallery horizontally in browser window; auto is for L and R margin */
